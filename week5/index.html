@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Club</title>
+
+    <style>
+        body {
+            background-color: #eef2ff;
+            font-family: Georgia, serif;
+            margin: 20px;
+        }
+
+        #hero {
+            background-color: #315bea;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="hero">
+        <h1>Tech Club</h1>
+        <p>Learn. Code. Grow.</p>
+    </header>
+
+    <section class="card">
+        <h2>Upcoming Events</h2>
+        <table width="100%">
+            <tr style="background-color:#315bea; color:white;">
+                <th>Event</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>HTML Workshop</td>
+                <td>12 Nov</td>
+                <td>Lab 1</td>
+            </tr>
+            <tr>
+                <td>Hackathon</td>
+                <td>20 Nov</td>
+                <td>Seminar Hall</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="card">
+        <h2>Register</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="you@example.com">
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</body>
+</html>
