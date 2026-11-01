@@ -62,3 +62,30 @@
     font-size: 14px;
     overflow: auto;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    background: #11213d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.add-btn {
+    position: fixed;
+    right: 35px;
+    bottom: 30px;
+
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #ffb400;
+    font-size: 27px;
+
+    cursor: pointer;
+    z-index: 10;
+}
