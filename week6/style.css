@@ -1,46 +1,56 @@
-* {
-    box-sizing: border-box;
+/* Profile Container */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px;
 }
 
-body {
-    font-family: Arial;
-}
-
-.browser {
-    width: 97%;
-    margin: 20px auto;
-    border: 2px solid #dce3ed;
-    background: #edf2f9;
-}
-
-.browser-top {
-    height: 38px;
-    background: #e5eaf2;
-    padding: 12px;
-}
-
-span {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-}
-
-.red { background: red; }
-.yellow { background: orange; }
-.green { background: green; }
-
-header {
-    background: #11213d;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
+/* Profile Card */
 
 .profile-card {
     width: 290px;
-    margin: 25px auto;
-    padding: 20px;
-    border: 2px solid blue;
+    height: 328px;
     background: white;
+    border: 2px solid;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Avatar */
+
+.avatar {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    color: white;
+    font-size: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 20px;
+}
+
+/* Blue Version */
+
+.blue-card {
+    border-color: blue;
+}
+
+.blue-avatar {
+    background: blue;
+}
+
+/* Pink Version */
+
+.pink-card {
+    border-color: deeppink;
+}
+
+.pink-avatar {
+    background: deeppink;
 }
