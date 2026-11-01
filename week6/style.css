@@ -54,3 +54,11 @@
 .pink-avatar {
     background: deeppink;
 }
+.bio {
+    height: 82px;
+    border: 1px solid #c8c8d5;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+    overflow: auto;
+}
