@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.browser {
+    width: 97%;
+    margin: 20px auto;
+    border: 2px solid #dce3ed;
+    background: #edf2f9;
+}
+
+.browser-top {
+    height: 38px;
+    background: #e5eaf2;
+    padding: 12px;
+}
+
+span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red { background: red; }
+.yellow { background: orange; }
+.green { background: green; }
+
+header {
+    background: #11213d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.profile-card {
+    width: 290px;
+    margin: 25px auto;
+    padding: 20px;
+    border: 2px solid blue;
+    background: white;
+}
