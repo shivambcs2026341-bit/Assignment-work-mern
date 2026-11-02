@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #eef2f8;
+}
+
+h2 {
+    background: #14233f;
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
