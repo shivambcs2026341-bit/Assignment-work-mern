@@ -117,3 +117,46 @@ body {
 .card p {
     font-size: 16px;
 }
+/* Tablet screen */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 12px;
+    }
+
+    .nav-right {
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .banner h1 {
+        font-size: 26px;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .banner h1 {
+        font-size: 22px;
+    }
+
+    .cards-container {
+        padding: 12px;
+    }
+}
