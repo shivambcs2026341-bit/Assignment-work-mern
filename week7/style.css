@@ -34,3 +34,42 @@ button {
     border: none;
     border-radius: 8px;
 }
+/* 7.2 Banner */
+
+.banner {
+    height: 270px;
+    background: #3159e9;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 14px;
+}
+
+/* Heading */
+
+.banner h1 {
+    font-size: 32px;
+}
+
+/* Paragraph */
+
+.banner p {
+    font-size: 17px;
+}
+
+/* Button */
+
+.start-btn {
+    background: #ffb400;
+    color: black;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
