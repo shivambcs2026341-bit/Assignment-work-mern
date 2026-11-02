@@ -47,13 +47,6 @@ body {
     gap: 15px;
 }
 
-.box {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    font-size: 18px;
-}
-
 .foot {
     grid-area: foot;
     background: #14233f;
@@ -61,4 +54,25 @@ body {
     text-align: center;
     padding: 25px;
     border-radius: 10px;
+}
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.box h3 {
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 16px;
 }
