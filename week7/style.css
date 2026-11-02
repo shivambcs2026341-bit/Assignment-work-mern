@@ -73,3 +73,41 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* 7.3 Cards Container */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 24px;
+}
+
+/* Individual Cards */
+
+.card {
+    flex: 1 1 200px;
+
+    min-height: 83px;
+    background: #edf1ff;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* Card Heading */
+
+.card h3 {
+    font-size: 18px;
+}
+
+/* Card Paragraph */
+
+.card p {
+    font-size: 16px;
+}
